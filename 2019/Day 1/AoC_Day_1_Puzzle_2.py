@@ -1,5 +1,5 @@
 # Advent of Code 2019
-# Day 1 - Puzzle: 1
+# Day 1 - Puzzle: 2
 
 def calculate_fuel(mass):
 	return int(mass / 3) - 2
