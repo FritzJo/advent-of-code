@@ -47,7 +47,7 @@ def bruteforce_result(target, limit, intcode):
 	print("Can't find solution in range 0-" + str(limit)) 
 	
 if __name__ == "__main__":
-	with open("AoC_Day_2_Puzzle_1_Input.txt") as f:
+	with open("AoC_Day_2_Input.txt") as f:
 		intcode = f.readline()
 	array = parse_intcode(intcode)
 	print("Solution: " + str(bruteforce_result(19690720, 100, array)))

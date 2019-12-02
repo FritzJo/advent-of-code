@@ -18,6 +18,6 @@ def calculate_total_fuel(masses):
 	return sum
 	
 if __name__ == "__main__":
-	masses = read_input("AoC_Day_1_Puzzle_1_Input.txt")
+	masses = read_input("AoC_Day_1_Input.txt")
 	total_fuel = calculate_total_fuel(masses)
 	print(total_fuel)

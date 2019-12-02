@@ -36,7 +36,7 @@ def restore_state(code):
 	return code
 
 if __name__ == "__main__":
-	with open("AoC_Day_2_Puzzle_1_Input.txt") as f:
+	with open("AoC_Day_2_Input.txt") as f:
 		intcode = f.readline()
 	array = parse_intcode(intcode)
 	restored_state = restore_state(array)
