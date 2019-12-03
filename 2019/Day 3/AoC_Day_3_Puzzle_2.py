@@ -1,5 +1,5 @@
 # Advent of Code 2019
-# Day 3 - Puzzle: 1
+# Day 3 - Puzzle: 2
 
 def parse_direction(direction):
 	dir = {  # x,  y
