@@ -61,6 +61,5 @@ def interpret_intcode(code, input):
 if __name__ == "__main__":
 	with open("AoC_Day_5_Input.txt") as f:
 		intcode = f.readline()
-		#intcode = "1002,4,3,4,33"
 		array = intcode.split(",")
 		print(interpret_intcode(array, 1))
