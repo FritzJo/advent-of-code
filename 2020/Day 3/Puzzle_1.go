@@ -47,6 +47,6 @@ func calculatePath(pattern [][]string, down int, right int) int {
 }
 
 func part1() int {
-	pattern := readInput("input2.txt")
+	pattern := readInput("input.txt")
 	return calculatePath(pattern, 1, 3)
 }
