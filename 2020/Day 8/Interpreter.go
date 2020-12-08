@@ -43,18 +43,20 @@ func (i *Interpreter) executeInstruction(instruction Instruction) int {
 	}
 }
 
-func (inter *Interpreter) executeCode(findLoop bool) {
+func (inter *Interpreter) executeCode(findLoop bool) bool {
 	executedInstructions := map[int]bool{}
 	for i := 0; i < len(inter.code); {
 		if findLoop {
 			if executedInstructions[i] {
-				fmt.Printf("Loop! Accumulator value = %d\n", inter.accumulator)
-				return
+				//fmt.Printf("Loop! Accumulator value = %d\n", inter.accumulator)
+				return false
 			} else {
 				executedInstructions[i] = true
 			}
 		}
-		fmt.Printf("-> %s %d\n", inter.code[i].operation, inter.code[i].argument)
+		//fmt.Printf("-> %s %d\n", inter.code[i].operation, inter.code[i].argument)
 		i += inter.executeInstruction(inter.code[i])
 	}
+	fmt.Printf("Done: Accumulator value = %d\n", inter.accumulator)
+	return true
 }
