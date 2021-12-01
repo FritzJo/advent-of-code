@@ -5,10 +5,11 @@
 "Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like." 
 --[Eric Wastl](https://twitter.com/ericwastl)
 
-[More information here!](https://adventofcode.com/2020/about)
+[More information here!](https://adventofcode.com/2021/about)
 
 ## Progress
 |Year|Language|Stars|
 |--|--|--|
 |2019|Python|17|
-|2020|Go|In progress|
+|2020|Go|18|
+|2021|Java|In progress|
