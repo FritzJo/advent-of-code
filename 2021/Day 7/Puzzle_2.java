@@ -1,5 +1,4 @@
-public import java.util.List;
-import java.util.stream.Collector;
+import java.util.List;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -34,6 +33,4 @@ class Puzzle_2 {
         return content;
     }
 }
-class Puzzle_2 {
-    
-}
+
