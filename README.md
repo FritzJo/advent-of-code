@@ -13,4 +13,5 @@
 |2019|Python|17|
 |2020|Go|18|
 |2021|Java|19|
-|2023|PHP| ongoing |
+|2023|PHP|11|
+|2024|JavaScript| ongoing |
